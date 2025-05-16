@@ -13,12 +13,12 @@ logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 URL = "https://pasadenahumane.org/adopt/view-pets/dogs/"
 DATA_FILE = "yesterday_dogs.json"
 
-EMAIL_SENDER = "dogupdate265@gmail.com"
-EMAIL_RECEIVER = "matthew@biofare.org"
+EMAIL_SENDER = "#"
+EMAIL_RECEIVER = "#"
 EMAIL_SUBJECT = "🐶 Pasadena Humane Daily Dog Report"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
-SMTP_PASSWORD = "awig bbbg xtni ckel"  # Use Gmail app password
+SMTP_PASSWORD = "#"  # Use Gmail app password
 # ----------------------------------------
 
 def scrape_dogs():
